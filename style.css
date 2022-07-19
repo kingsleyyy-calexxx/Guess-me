@@ -1,0 +1,60 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    text-align: center;
+    background-image: url(./assets/bg.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding-top: 20%; */
+    /* background-image: url(./assets/guess.gif);
+    background-repeat: no-repeat; */
+}
+#line{
+    text-align: center;
+    width: 40%;
+    margin-left: 29%;
+    color: aliceblue;
+}
+#title{
+    padding-bottom: 5%;
+    padding-top: 10%;
+    color: white;
+}
+#heading{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+#textLabel,#textBox{
+    padding-bottom: 10px;
+}
+#textLabel{
+    color: white;
+}
+#textBox{
+    width: 15%;
+    font-size: 30px;
+}
+#checkButton{
+    width: 100px;
+    font-size: 30px;
+    cursor: pointer;
+}
+#lives{
+    padding-top: 50px;
+    color: cornsilk;
+}
+#win{
+    text-align: center;
+    padding-top: 25%;
+    color: white;
+}
+#lose{
+    text-align: center;
+    padding-top: 25%;
+    color: white;
+}
